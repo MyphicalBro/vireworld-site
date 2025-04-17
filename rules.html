@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="sources/css/rules.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <title>VIREWORLD - Правила сервера</title>
+</head>
+
+<body>
+
+    <header class="header" id="main_page">
+        <div class="header-head">
+            <div class="server">
+                <div class="server-icon">
+                    <a href="index.html"><img src="sources/assets/server-icon.png"></a>
+                </div>
+                <div class="server-info">
+                    <h2 class="server-name">VIREWORLD</h2>
+                    <p class="server-description"><span class="s-color">Тяжелый мир</span> - только для сильных.</p>
+                </div>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li><a href="index.html"><i class='bx bx-home-alt'></i> Главная</a></li>
+                    <li class="active"><a href="#"><i class='bx bx-book-alt'></i> Правила</a></li>
+                    <li><a onclick="alert('Скоро...')"><i class='bx bx-support'></i> Поддержка</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href="https://vk.com/vireworld"><i class='bx bxl-vk'></i></a>
+                <a href="https://t.me/vireworld"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.youtube.com/@vireworld_channel"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="header-header">
+            <div class="text">
+                <h2>VIREWORLD</h2>
+                <p><span class="s-color">Тяжелый мир</span> - только для сильных</p>
+                <a href="#main">
+                    <i class='bx bx-caret-down-circle'></i> К правилам
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+
+        <div class="selector">
+            <ul>
+                <li>
+                    <button class="selector-btn active" id="rules1">
+                        1. Общее положение
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="rules2">
+                        2. Игровой процесс
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="rules3">
+                        3. Внутриигровое общение
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="rules4">
+                        4. Правила для донатеров
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="rules5">
+                        5. Правила регистрации
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="rules rules1">
+
+            <h2 class="separator">1. Общее положение.</h2>
+            <div class="rules-text">
+                <p><span class="rules-num">1.1.</span> Данный свод правил составлен представителем проекта VireWorld
+                    и действителен на всех игровых режимах проекта VireWorld. Незнание правил не освобождает нарушителя
+                    от ответственности, а также может усугубить наказание.
+                </p>
+                <p><span class="rules-num">1.2.</span> Проект VireWorld - сервер, расположенный по адресу:
+                    mc.vireworld.ru. Все остальные домены таковыми не являются. Регистрируясь на нашем проекте, вы
+                    автоматически принимаете данные правила.
+                </p>
+                <p><span class="rules-num">1.3.</span> Правила могут быть изменены без явного оповещения основной
+                    аудитории проекта. При значительных изменениях правил, в Телеграмм канале проекта будет
+                    опубликован пост об этом.
+                </p>
+                <p><span class="rules-num">1.4.</span> Решения и действия главной администрации (MyphicalBro) не
+                    обсуждаются и не поддаются разжалованию. Главная администрация вправе выдавать наказания вне
+                    рамок данных правил.
+                </p>
+                <p><span class="rules-num">1.5.</span> Администрация сервера не выдаёт игровые ресурсы/компенсации
+                    за их потерю в результате кика сервера, лагов/багов, а также действия игроков, использующие
+                    запрещённое ПО (читы).
+                </p>
+                <p><span class="rules-num">1.6.</span> Продажа, взломы, попытки взломов, передачи аккаунтов, покупки
+                    аккаунтов в обход официального сайта, распространение данных игроков, вред серверу, а так же
+                    продажи/покупки чего либо за реальную валюту - строго запрещены. Соучастие, содействие,
+                    совместная игра с нарушителями так же попадают под это правило. Аккаунты с которых был нанесен
+                    серьезный вред проекту - не подлежат восстановлению, даже если аккаунт был в тот момент взломан
+                    или добровольно передан или продан. Ответственность несет владелец аккаунта, независимо от того,
+                    кто совершал действия под данным аккаунтом. <span class="rules-punish">[Наказание: Отключение
+                        всех аккаунтов без возможности приобрести разбан]</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="rules rules2 hide">
+
+            <h2 class="separator">2. Игровой процесс.</h2>
+            <div class="rules-text">
+                <p><span class="rules-num">2.1.</span> Запрещено причинение вреда проекту: заливы, лаг-машины, багоюз,
+                    дюпы. <br>
+                    <span class="rules-addnum">2.1.1.</span> Создание заливов и багоюз <span class="rules-punish">[бан
+                        на
+                        25 дней]</span><br>
+                    <span class="rules-addnum">2.1.2.</span> Создание лаг машин и все что может нанести вред
+                    работоспособности сервера <span class="rules-punish">[отключение аккаунта]</span><br>
+                    <span class="rules-addnum">2.1.3.</span> Использование и распространение дюпов <span
+                        class="rules-punish">[отключение аккаунта]</span><br>
+                    <span class="rules-addnum">2.1.4.</span> Помеха работы персонала. Например писать "спек" просто так
+                    <span class="rules-punish">[бан на 1 час]</span><br>
+                </p>
+                <p><span class="rules-num">2.2.</span> Флуд командами. Например "/pay Example 1" более 18 раз <span
+                        class="rules-punish">[кик, бан на 4 часа]</span>
+                </p>
+                <p><span class="rules-num">2.3.</span> Некорректный текст, нарушающий правила чата на табличках,
+                    регионах, книгах. <span class="rules-punish">[бан на 6 часов]</span>
+                </p>
+                <p><span class="rules-num">2.4.</span> Запрещена реклама, продажа, распространение читов, магазин,
+                    дискорд каналов, групп, связанных с продажей, взломом, обменом ресурсов. <span
+                        class="rules-punish">[бан навсегда]</span>
+                </p>
+                <p><span class="rules-num">2.5.</span> Создание кланов с названием, нарушающим правила из пункта 3.
+                    <span class="rules-punish">[удаление клана, бан основателя клана на 2 дня]</span>
+                </p>
+                <p><span class="rules-num">2.6.</span> Использование вредоносного, читерского ПО, получение преимущества
+                    над игроками. <span class="rules-punish">[бан на 24 дня + удаление основного дома (на усмотрением
+                        администрации)]</span><br>
+                    <span class="rules-addnum">2.6.1.</span> Признание до/на проверке. <span class="rules-punish">[бан
+                        на
+                        20 дней]</span><br>
+                    <span class="rules-addnum">2.6.2.</span> Совместная игра с игроком, нарущающим пункт 2.6. <span
+                        class="rules-punish">[бан на 14 дней]</span><br>
+                    <span class="rules-addnum">2.6.3.</span> Признание в наличии/игре с читами (в любом виде чата).
+                    <span class="rules-punish">[бан на 8 дней]</span><br>
+                    <span class="rules-addnum">2.6.4.</span> Читы удалны менее 10 дней назад. <span
+                        class="rules-punish">[бан на 24 дня]</span><br>
+                    <span class="rules-addnum">2.6.5.</span> Использование Auto-копателей, лесорубов. <span
+                        class="rules-punish">[бан на 8 дней]</span><br>
+                </p>
+
+                <div>
+                    <br>
+                    <span class="rules-num">Список запрещенных модов:</span>
+                    <ul>
+                        <li>ElytraSwap <span class="rules-punish">[бан на 6 дней]</span></li>
+                        <li>ArmorHotSwap <span class="rules-punish">[бан на 6 дней]</span></li>
+                        <li>Slippery Mod <span class="rules-punish">[бан на 24 дня]</span></li>
+                        <li>StepUp Mod <span class="rules-punish">[бан на 12 дней]</span></li>
+                        <li>AFK-Fish <span class="rules-punish">[бан на 6 дней]</span></li>
+                        <li>InvMove <span class="rules-punish">[бан на 8 дней]</span></li>
+                        <li>Inventory Totem <span class="rules-punish">[бан на 24 дня]</span></li>
+                        <li>TopkaAutoBuy <span class="rules-punish">[бан на 8 дней]</span></li>
+                        <li>GoProne <span class="rules-punish">[бан на 12 дней]</span></li>
+                        <li>CleanCut <span class="rules-punish">[бан на 12 дней]</span></li>
+                        <li>Grass Bypass <span class="rules-punish">[бан на 12 дней]</span></li>
+                        <li>TopkaCasino <span class="rules-punish">[бан на 12 дней]</span></li>
+                        <li>FeverVisual <span class="rules-punish">[бан на 24 дня]</span></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <span class="rules-num">Список запрещенных модов которые расцениваются как читы (бан на 24
+                        дня):</span>
+                    <ul>
+                        <li>Aim Assistance</li>
+                        <li>Auto Look</li>
+                        <li>Zergatul.cheatutils</li>
+                        <li>DiamondSim</li>
+                        <li>X-Ray Mod</li>
+                        <li>Chest Locator</li>
+                        <li>ChestESP</li>
+                        <li>Entity/Player X-Ray</li>
+                        <li>Spawner Locator</li>
+                        <li>AutoAttack</li>
+                        <li>InventoryProfilesNext</li>
+                        <li>Baritone/Fabritone</li>
+                        <li>NoClipFlyMod</li>
+                        <li>FreeCam</li>
+                        <li>PlayerHighlighter</li>
+                        <li>ClickCrystal 1.19.4 / 1.16.5</li>
+                        <li>AutoClickly</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="rules rules3 hide">
+
+            <h2 class="separator">3. Внутриигровое общение.</h2>
+            <div class="rules-text">
+                <p><span class="rules-num">3.1.</span> Запрещено флудить, отправлять более 3-х похожих по смысле, или
+                    одинаковых сообщений менее чем за 1 минуту (3 сообщения можно, 4 нельзя). <span
+                        class="rules-punish">[мут на 2 часа]</span>
+                </p>
+                <p><span class="rules-num">3.2.</span> Запрещено флудить символами, т.е. использовать комбинации
+                    бессмысленных символов по типу "???????" (от 6 символов). <span class="rules-punish">[мут на 2
+                        часа]</span>
+                </p>
+                <p><span class="rules-num">3.3.</span> Запрещено организовывать флуд опросами, по типу "отправьте + в
+                    чат кто онлайн" (Исключение - просьба продать/обменять ресурсы или поиск тимейта/клана). <span
+                        class="rules-punish">[мут организатору флуда на 4 часа, мут всем участникам флуда на 2
+                        часа]</span>
+                </p>
+                <p><span class="rules-num">3.4.</span> Запрещено спамить, отправлять более 3-х сообщений за срок менее 1
+                    минуты. <span class="rules-punish">[мут на 2 часа]</span>
+                </p>
+                <p><span class="rules-num">3.5.</span> Неадекватное поведение, чрезмерные оскорбления и агрессия. <span
+                        class="rules-punish">[мут на 4 часа]</span><br>
+                    <span class="rules-addnum">3.5.1.</span> Оскорбления, унижения, угрозы к игрокам сервера. <span
+                        class="rules-punish">[мут на 4 часа]</span><br>
+                    <span class="rules-addnum">3.5.2.</span> Злоупотребление нецензурной лексикой. <span
+                        class="rules-punish">[мут на 2 часа]</span><br>
+                    <span class="rules-addnum">3.5.3.</span> Аморальное поведение, темы для совершеннолетних, призывы к
+                    суициду. <span class="rules-punish">[мут на 4 часа]</span><br>
+                </p>
+                <p><span class="rules-num">3.6.</span> Оскорбление, унижение проекта, оскорбительные названия (в любом
+                    виде чата). <span class="rules-punish">[мут на 90 дней]</span>
+                </p>
+                <p><span class="rules-num">3.7.</span> Выпрашивание снятия, выдачи наказний у Администрации (Исключение
+                    - выпрашивание у MyphicalBro). <span class="rules-punish">[мут на 12 часов]</span><br>
+                    <span class="rules-addnum">3.7.1.</span> Выпрашивание ресурсов у Администрации (Исключение -
+                    выпрашивание у MyphicalBro). <span class="rules-punish">[мут на 8 часа]</span><br>
+                </p>
+                <p><span class="rules-num">3.8.</span> Дезинформация игроков неофициальной, внутриигровой информацией
+                    (Исключение - "Скоро вайп"). <span class="rules-punish">[мут на 6 часов]</span><br>
+                    <span class="rules-addnum">3.8.1.</span> Вне-игрвоой обман игроков (Например, сочитания клавиш Alt +
+                    F4). <span class="rules-punish">[мут на 4 часа]</span><br>
+                </p>
+                <p><span class="rules-num">3.9.</span> Запрещено любое упоминание сторонних проектов, ресурсов, групп,
+                    соцсетей и т.п. <span class="rules-punish">[мут на 24 часа]</span><br>
+                    <span class="rules-addnum">3.9.1.</span> Любое упоминание Discord/Telegram-контактов (Исключение -
+                    личные сообщения, локальный чат с модератором). <span class="rules-punish">[мут на 24
+                        часа]</span><br>
+                </p>
+                <p><span class="rules-num">3.10.</span> Оскорбление родителей, некорректное обращение к родителям любого
+                    игрока, оскорбительные упоминания (Исключение - любые вышеупомянутые действия в отношении своих
+                    родителей). <span class="rules-punish">[мут на 8 часов]</span>
+                </p>
+                <p><span class="rules-num">3.11.</span> Затрагивание политики. <span class="rules-punish">[бан на 4
+                        часа]</span>
+                </p>
+                <p><span class="rules-num">3.12.</span> Выдача себя за Администрацию. <span class="rules-punish">[бан на
+                        1 день]</span><br>
+                    <span class="rules-addnum">3.12.1.</span> Угрозы баном/киком/мутом. <span class="rules-punish">[бан
+                        на 12 часов]</span>
+                </p>
+                <p><span class="rules-num">3.13.</span> Оскорбление Модерации или Администрации в любом виде чата. <span
+                        class="rules-punish">[бан на 6 дней]</span><br>
+                    <span class="rules-addnum">3.13.1.</span> Оскорбление родных Администрации. <span
+                        class="rules-punish">[бан на 12 дней]</span><br>
+                    <span class="rules-addnum">3.13.2.</span> Шутки, рофлы в сторону Администрации, состава проекта.
+                    <span class="rules-punish">[бан на 8 дней]</span><br>
+                    <span class="rules-addnum">3.13.3.</span> Неуважительное/неадекватное общение с Администрацией.
+                    <span class="rules-punish">[бан на 8 дней]</span><br>
+                    <span class="rules-addnum">3.13.4.</span> Угроза Администрации снятием, наказанием. <span
+                        class="rules-punish">[мут на 8 часов]</span><br>
+                </p>
+                <p><span class="rules-num">3.14.</span> Оскорбление ютуберов проекта в любом виде чата. <span
+                        class="rules-punish">[бан на 4 дня]</span>
+                </p>
+                <p><span class="rules-num">3.15.</span> Пропаганда нацизма/расизма, табакокурения, наркотиков, оружия,
+                    терроризма и т.д. <span class="rules-punish">[бан на 8 дней]</span>
+                </p>
+                <p><span class="rules-num">3.16.</span> Распространение личных данных игрока (доксинг, свтинг). Угрозы
+                    также сюда относятся. <span class="rules-punish">[бан на 20 дней]</span>
+                </p>
+            </div>
+
+        </div>
+
+        <div class="rules rules4 hide">
+
+            <h2 class="separator">4. Правила для донатеров.</h2>
+            <div class="rules-text">
+                <p><span class="rules-num">4.1.</span> Игра на сервер не подразумевает платы за использование ресурсов
+                    VireWorld.
+                </p>
+                <p><span class="rules-num">4.2.</span> Игрок вправе добровольно оплатить определенную сумму проекту за
+                    внутриигровую услугу в одностороннем порядке.
+                </p>
+                <p><span class="rules-num">4.3.</span> При ошибке платежа, либо отсутствия внутриигровой услуги после
+                    оплаты, необходимо обращаться в техподдержку при наличии электронного чека который приходит на
+                    указанную почту. Без электронного чека в оказании, восстановлении будет отказано. Повторную отправку
+                    чека псервер не предостовляет в целях безопасности. Чек необходимо сохранять в момент оплаты или
+                    находить на электронной почте.
+                </p>
+                <p><span class="rules-num">4.4.</span> Возврата средств за покупки у нас нету, так как VireWorld не
+                    является коммерческой организацией и все покупки являются добровольными пожертвованиями на развитие
+                    сервера.
+                </p>
+                <p><span class="rules-num">4.5.</span> Покупка платных привилегий не снимает ответственность за
+                    нарушения данных правил.
+                </p>
+            </div>
+
+        </div>
+
+        <div class="rules rules5 hide">
+
+            <h2 class="separator">5. Правила регистрации.</h2>
+            <div class="rules-text">
+                <p><span class="rules-num">5.1.</span> Никнейм пользователя должен быть корректным. Некорректным можно
+                    назвать любой ник, нарушающий все правила выше, а так же: <span class="rules-punish">[бан
+                        навсегда]</span><br>
+                    <span class="rules-addnum">5.1.1.</span> Никнейм, похожий на никнейм высшей Администрации.<br>
+                    <span class="rules-addnum">5.1.2.</span> Никнейм, сексуального, аморального содержания.<br>
+                    <span class="rules-addnum">5.1.3.</span> Никнейм, содержащий названия запрещенных ПО (например
+                    XRay666).<br>
+                    <span class="rules-addnum">5.1.4.</span> Никнейм, содержащий грубые матерные слова.<br>
+                    <span class="rules-addnum">5.1.5.</span> Никнейм, оскорбляющий никнейм другого игрока.<br>
+                </p>
+                <p><span class="rules-num">5.2</span> При покупке платных дополнительных возможностей (привилегий),
+                    кейсов, осколков, предоставленный системой чек желательно сохранить. Он понадобится при обращении в
+                    техподдержку.<br>
+                </p>
+                <p><span class="rules-num">5.3</span> При утере/взломе аккаунта, необходимо обратиться в техподдержку.
+                    Если ваш аккаунт был привязан, вы можете восстановить его самостоятельно.<br>
+                </p>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="left">
+            <div class="server">
+                <div class="server-icon">
+                    <a href="index.html"><img src="sources/assets/server-icon.png"></a>
+                </div>
+                <div class="server-info">
+                    <h2 class="server-name">VIREWORLD</h2>
+                    <p class="server-description"><span class="s-color">Тяжелый мир</span> - только для сильных.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    © VireWorld 2025 <br>
+                    Все права защищены.
+                </p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="page-column">
+                <h2 class="sep">Страницы</h2>
+                <ul>
+                    <li><a href="index.html"><i class='bx bx-home-alt'></i> Главная</a></li>
+                    <li><a href="#main_page"><i class='bx bx-book-alt'></i> Правила</a></li>
+                    <li><a onclick="alert('Скоро...')"><i class='bx bx-support'></i> Поддержка</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <h2 class="sep">Соц. Сети</h2>
+                <a href="https://vk.com/vireworld"><i class='bx bxl-vk'></i></a>
+                <a href="https://t.me/vireworld"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.youtube.com/@vireworld_channel"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <button class="ip" id="ipButton" title="Нажмите, чтобы скопировать айпи сервера">
+        IP: mc.vireworld.ru <i class='bx bxs-copy'></i>
+    </button>
+
+    <div class="notify">
+        <div class="notify-body">
+            <p class="notify-text" id="notify-text">фыв</p>
+        </div>
+    </div>
+
+    <script src="sources/javascript/rules.js"></script>
+</body>
+
+</html>

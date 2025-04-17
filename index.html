@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="sources/css/style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+
+    <title>VIREWORLD - Главная</title>
+</head>
+
+<body>
+
+    <header class="header" id="main_page">
+        <div class="header-head">
+            <div class="server">
+                <div class="server-icon">
+                    <a href="index.html"><img src="sources/assets/server-icon.png"></a>
+                </div>
+                <div class="server-info">
+                    <h2 class="server-name">VIREWORLD</h2>
+                    <p class="server-description">Тяжелый мир - только для сильных.</p>
+                </div>
+            </div>
+            <div class="navbar">
+                <ul>
+                    <li class="active" id="mainEl"><a href="#main_page"><i class='bx bx-home-alt'></i> Главная</a></li>
+                    <li id="magazineEl"><a href="#main"><i class='bx bx-store'></i> Магазин</a></li>
+                    <li><a href="rules.html"><i class='bx bx-book-alt'></i> Правила</a></li>
+                    <li><a onclick="alert('Скоро...')"><i class='bx bx-support'></i> Поддержка</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <a href="https://vk.com/vireworld"><i class='bx bxl-vk'></i></a>
+                <a href="https://t.me/vireworld"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.youtube.com/@vireworld_channel"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+        <div class="header-header">
+            <div class="text">
+                <h2>VIREWORLD</h2>
+                <p>Тяжелый мир - только для сильных</p>
+                <a href="#main">
+                    <i class='bx bx-caret-down-circle'></i> К товарам
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <main class="main" id="main">
+
+        <div class="selector">
+            <ul>
+                <li>
+                    <button class="selector-btn active" id="all">
+                        <i class='bx bx-purchase-tag-alt'></i> Все
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="donates">
+                        <i class='bx bx-purchase-tag-alt'></i> Привилегии
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="cases">
+                        <i class='bx bx-purchase-tag-alt'></i> Кейсы
+                    </button>
+                </li>
+                <li>
+                    <button class="selector-btn" id="vault">
+                        <i class='bx bx-purchase-tag-alt'></i> Валюта
+                    </button>
+                </li>
+            </ul>
+        </div>
+
+        <div class="products">
+
+            <div class="products-type donates">
+                <h3 class="separator">Привилегии</h3>
+
+                <div class="products-list">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/coal.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ᴄᴏᴀʟ (1 мес.)</h2>
+                            <p class="card-price">19 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/iron.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ɪʀᴏɴ (1 мес.)</h2>
+                            <p class="card-price">49 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/gold.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ɢᴏʟᴅ (1 мес.)</h2>
+                            <p class="card-price">89 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/diamond.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ᴅɪᴀᴍᴏɴᴅ (1 мес.)</h2>
+                            <p class="card-price">149 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/emerald.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ᴇᴍᴇʀᴀʟᴅ (1 мес.)</h2>
+                            <p class="card-price">189 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/amethist.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ᴀᴍᴇᴛʜɪѕᴛ (1 мес.)</h2>
+                            <p class="card-price">249 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/netherite.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">ɴᴇᴛʜᴇʀɪᴛᴇ (1 мес.)</h2>
+                            <p class="card-price">329 руб / мес.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-type cases">
+                <h3 class="separator">Кейсы</h3>
+
+                <div class="products-list">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/donatecase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Донатом (1 шт.)</h2>
+                            <p class="card-price">129 руб / 1 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/donatecase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Донатом (3 шт.)</h2>
+                            <p class="card-price">349 руб / 3 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/donatecase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Донатом (9 шт.)</h2>
+                            <p class="card-price">999 руб / 9 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/fragscase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Осколками (1 шт.)</h2>
+                            <p class="card-price">99 руб / 1 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/fragscase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Осколками (3 шт.)</h2>
+                            <p class="card-price">259 руб / 3 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/fragscase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Осколками (9 шт.)</h2>
+                            <p class="card-price">769 руб / 9 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/moneycase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Монетами (1 шт.)</h2>
+                            <p class="card-price">69 руб / 1 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/moneycase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Монетами (3 шт.)</h2>
+                            <p class="card-price">179 руб / 3 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/moneycase.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Кейс с Монетами (9 шт.)</h2>
+                            <p class="card-price">589 руб / 9 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-type vault">
+                <h3 class="separator">Валюта</h3>
+
+                <div class="products-list">
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/money1.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Монеты (10,000 шт.)</h2>
+                            <p class="card-price">10 руб / 10.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/money2.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Монеты (100,000 шт.)</h2>
+                            <p class="card-price">100 руб / 100.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/money3.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Монеты (1,000,000 шт.)</h2>
+                            <p class="card-price">1.000 руб / 1.000.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/money4.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Монеты (10,000,000 шт.)</h2>
+                            <p class="card-price">10.000 руб / 10.000.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/frags1.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Осколки (1.000 шт.)</h2>
+                            <p class="card-price">1.000 руб / 1.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/frags2.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Осколки (5,000 шт.)</h2>
+                            <p class="card-price">5.000 руб / 5.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/frags3.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Осколки (10,000 шт.)</h2>
+                            <p class="card-price">10.000 руб / 10.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                    <div class="product-card">
+                        <div class="card-img">
+                            <img src="sources/assets/frags4.png">
+                        </div>
+                        <div class="card-info">
+                            <h2 class="card-name">Осколки (50,000 шт.)</h2>
+                            <p class="card-price">50.000 руб / 50.000 шт.</p>
+                        </div>
+                        <div class="card-btn">
+                            <button>
+                                <i class='bx bxs-credit-card'></i> Купить
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="footer">
+        <div class="left">
+            <div class="server">
+                <div class="server-icon">
+                    <a href="index.html"><img src="sources/assets/server-icon.png"></a>
+                </div>
+                <div class="server-info">
+                    <h2 class="server-name">VIREWORLD</h2>
+                    <p class="server-description">Тяжелый мир - только для сильных.</p>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>
+                    © VireWorld 2025 <br>
+                    Все права защищены.
+                </p>
+            </div>
+        </div>
+
+        <div class="right">
+            <div class="page-column">
+                <h2 class="sep">Страницы</h2>
+                <ul>
+                    <li><a href="#main_page"><i class='bx bx-home-alt'></i> Главная</a></li>
+                    <li><a href="#"><i class='bx bx-book-alt'></i> Правила</a></li>
+                    <li><a href="#"><i class='bx bx-support'></i> Поддержка</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <h2 class="sep">Соц. Сети</h2>
+                <a href="https://vk.com/vireworld"><i class='bx bxl-vk'></i></a>
+                <a href="https://t.me/vireworld"><i class='bx bxl-telegram'></i></a>
+                <a href="https://www.youtube.com/@vireworld_channel"><i class='bx bxl-youtube'></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <div class="welcome-page">
+        <div class="welcome-body">
+            <div class="welcome-text">
+                <h2>VIREWORLD</h2>
+                <p>Приветствуем вас на нашем сайте!</p>
+                <p>Нажмите на кнопку ниже, чтобы продолжить</p>
+                <button class="welcome-btn">Продолжить</button>
+            </div>
+        </div>
+    </div>
+
+    <button class="ip" id="ipButton" title="Нажмите, чтобы скопировать айпи сервера">
+        IP: mc.vireworld.ru <i class='bx bxs-copy'></i>
+    </button>
+
+    <div class="notify">
+        <div class="notify-body">
+            <p class="notify-text" id="notify-text">фыв</p>
+        </div>
+    </div>
+
+    <script src="sources/javascript/main.js"></script>
+</body>
+
+</html>
